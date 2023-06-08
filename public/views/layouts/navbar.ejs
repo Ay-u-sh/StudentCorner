@@ -1,0 +1,46 @@
+<!-- Navigation -->
+
+<nav>
+    <!--This code is about the header which is on the very top of the webpage. It consists of three divs first one is for logo, second one is for the navigation links and the third one is for buttons (toggle button, login & signup buttons)-->
+
+    <div class="top_logo">
+        <!-- <h1>UU</h1>
+        <h2>HeplpDesk</h2> -->
+        <img src="../../assets/img/navbar/New2.png" alt="logo">
+    </div>
+
+    <div class="top_nav">
+        <a href="/">HOME</a>
+        <a href="/resources">RESOURCES</a>
+        <a href="/community">COMMUNITY</a>
+        <a href="/contact ">CONTACT</a>
+        <a href="/about">ABOUT US</a>    
+    </div>
+
+    <div class=" top_btns ">
+
+        <div class="containerBox"> 
+            <div class="icon">
+                <i class="search fa fa-search"></i>
+            </div>
+                <div class="input">
+                <form enctype="multipart/form-data" method="post" action="/search">
+                    <input type="text" name="searchdata" placeholder="search" id="search">
+                </form>
+                    <i class="clear fa fa-times"></i>
+                </div>
+        </div>
+    
+        <div class=" login_btn ">
+            <% if(!loggedIn){%>
+                <a href="/loginsignup"><button>Join Now</button></a>
+        </div>
+            <%}%>
+
+           <% if(loggedIn){%> 
+            <div class=" login_btn ">
+                <a href="/logout"><button>LogOut</button></a>
+            </div>
+            <%}%>
+    </div>
+</nav>

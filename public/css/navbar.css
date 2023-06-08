@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100;600&family=Balsamiq+Sans&family=Bebas+Neue&family=Inconsolata:wght@900&family=Jua&family=Just+Another+Hand&family=Kanit:wght@300;500&family=Manrope:wght@600&family=Paytone+One&family=Roboto+Mono:wght@300&family=Secular+One&family=Spline+Sans:wght@300&family=Teko&family=Oswald:wght@400&family=Kaushan+Script&family=Yellowtail&family=Bowlby+One+SC&family=Passion+One&family=Black+Han+Sans&family=Fira+Mono&family=Nunito+Sans:wght@200;300&family=Quicksand&family=Josefin+Slab&family=Uncial+Antiqua&family=Rubik&display=swap');
+/* imported fonts from google fonts */
+
+*,
+*::before,
+*::after {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Oswald;
+    overflow-x: hidden;
+}
+/* Styling the nav */
+/* styling the main nav (layer) */
+
+/*-------------------------------       NAVBAR STYLING STARTS HERE      -----------------------*/
+nav {
+    width: 100vw;
+    /* width according to the viewport width */
+    height: 8vh;
+    /* height according to the viewport height */
+    /* background: linear-gradient(to top, #e1daf3, #f5effd); */
+    background-color: white;
+     
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.200);
+    display: flex;
+    transition: 0.5s linear;
+    z-index: 800;
+    /* keeps the nav on the very front of different layers. */
+}
+/* styling of logo div */
+
+.top_logo {
+    width: 30em;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    /* border: 1px solid crimson; */
+    z-index: 999;
+}
+/* logo dimensions  */
+
+.top_logo img {
+    width: 16rem;
+    height: 16rem;
+}
+/* styling the navigation links div */
+
+.top_nav {
+    width: 60em;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 1px solid crimson; */
+    font-size: 16px;
+    letter-spacing: 1px;
+    z-index: 999;
+}
+
+.top_nav a {
+    text-decoration: none;
+    color: black;
+    transition: 0.1s linear;
+}
+
+.top_nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+a::selection,
+p::selection,
+button::selection,
+i::selection,
+h1::selection,
+h4::selection {
+    background-color: rgba(0, 128, 0, 0.551);
+}
+/* styling the buttons div */
+
+
+.top_btns {
+    width: 40em;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    z-index: 999;
+}
+
+
+/* buttons div icon */
+
+/*------------------------        SEARCH BAR CSS STARTS HERE    -----------------------------*/
+.containerBox{
+    width: 40px;
+    height: 40px;
+    margin-right: 30px;
+    border-radius: 50px;
+    border:2px solid black;
+    position: relative;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.containerBox.active{
+    width: 400px;
+}
+.containerBox .icon{
+    position: absolute;
+    color:white;
+    left: 18px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.containerBox .icon .search{
+    font-size: 21px;
+    cursor: pointer;
+    color:black;
+}
+.containerBox .input{
+    position: relative;
+    width: 300px;
+    height: 40px;
+    left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerBox .input input{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 22px;
+}
+.containerBox input::placeholder{
+    background: 100% 100%;
+    left:0px;
+}
+.containerBox .input .clear{
+    position: absolute;
+    right: -25px;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    font-size: 20px;
+    color:rgba(0, 0, 0, 0.364);
+}
+/*-------------------------        SEARCH BAR CSS ENDS HERE   -----------------------------*/
+
+/* Styling the login and sign-up button */
+
+nav .login_btn button {
+    width: 100px;
+    height: 35px;
+
+    margin-right: 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: "Oswald", "Bebas Neue";
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+nav .login_btn #btn_l {
+    margin-right: 5px;
+}
+
+nav .login_btn #btn_s {
+    margin-left: 5px;
+}
+
+nav .login_btn button:hover {
+    background-color: crimson;
+    color: white;
+}
+/* ----------------------------     NAVBAR STYLING ENDS HERE    ----------------------------- */

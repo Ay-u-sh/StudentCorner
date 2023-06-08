@@ -1,0 +1,118 @@
+
+/*-------------------------     CONTACT CSS STARTS HERE     -----------------------------*/
+.main {
+    width: 100vw;
+    height: 92vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0, 38, 163, 0.562), rgba(90, 167, 255, 0.644));
+    background: rgb(255, 255, 255);
+}
+
+.main-pic {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-pic img {
+    width: 100%;
+    height: 80%;
+}
+
+.main-contact {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-heading {
+    width: 80%;
+    height: 10%;
+    text-align: center;
+    font: bold 52px "Quicksand";
+    color: #222;
+    margin-top: 20px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.contact-about {
+    width: 80%;
+    height: 10%;
+    text-align: center;
+    font: bold 20px "Quicksand";
+    color: #444;
+    padding-top: 10px;
+}
+
+#contact-form {
+    width: 80%;
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px 20px 0px;
+}
+
+#contact-form input[type="text"],#contact-form input[type="email"] {
+    width: 70%;
+    height: 10%;
+    font: 18px "Quicksand";
+    outline: none;
+    border: 1px double rgb(34, 34, 34);
+    border: none;
+    border-bottom: 2px double rgba(0, 0, 0, 0.712);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 10px;
+}
+
+#contact-form textarea {
+    width: 70%;
+    height: 40%;
+    padding: 10px 0px 0px 10px;
+    font: 18px "Quicksand";
+    outline: none;
+    border: 2px double rgba(0, 0, 0, 0.712);
+    border-radius: 5px;
+    resize: none;
+}
+
+#contact-form textarea::placeholder {
+    color: rgba(85, 85, 85, 0.678);
+    font: bold 16px "Quicksand";
+}
+
+#contact-form input::placeholder {
+    color: rgba(85, 85, 85, 0.678);
+    font: bold 16px "Quicksand";
+}
+
+#contact-form button {
+    width: 20%;
+    height: 10%;
+    position: relative;
+    left: -25%;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font: 20px "Quicksand";
+    cursor: pointer;
+    background-color: rgb(20, 130, 220);
+    transition: 0.5s all;
+}
+
+#contact-form button:hover {
+    box-shadow: 0px 0px 10px rgb(32, 166, 255);
+}
+
+/*--------------------------------      CONTACT CSS ENDS HERE       ---------------------------*/

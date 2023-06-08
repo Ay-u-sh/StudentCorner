@@ -1,0 +1,137 @@
+
+/*  -----------------------       ABOUT CSS STARTS HERE    --------------------- */
+
+section .title {
+    width: 100%;
+    height: 20vh;
+    margin-top: 50px;
+}
+
+.title h1 {
+    font: bold 100px "Uncial Antiqua";
+    color: #222;
+    letter-spacing: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0496ff;
+    /* background-color: rgba(192, 184, 186, 0.315); */
+    padding: 20px 0px 10px 0px;
+}
+
+.title_about {
+    width: 100%;
+    height: 35vh;
+    padding: 0px 200px 0px 200px;
+    margin-top: 100px;
+}
+
+.title_about #about-para {
+    font: 30px "Roboto Mono";
+    text-align: justify;
+}
+
+.about-team {
+    width: 100%;
+    height: 120vh;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.div-for-heading {
+    width: 100%;
+    height: 10vh;
+    font: 40px "Quicksand";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-for-heading p {
+    padding: 0px 10px 0px 10px;
+    border-radius: 10px;
+    background-color: rgba(34, 111, 255, 0.315);
+}
+
+.div-for-cards {
+    width: 100%;
+    height: 90vh;
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.div-for-cards .card1 {
+    width: 28%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.card1 .name-and-img {
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+
+.card1 .card1-name {
+    width: 10%;
+    height: 100%;
+}
+
+.card1-name h3 {
+    width: 45vh;
+    transform: rotate(-90deg);
+    transform-origin: 0% 0%;
+    position: relative;
+    top: 100%;
+    padding-left: 10px;
+    padding-top: 2px;
+    font: bold 20px "Roboto Mono";
+}
+
+.card1-name span {
+    transform: rotate(-90deg);
+    transform-origin: 0% 0%;
+    padding-left: 10px;
+    padding-top: 2px;
+    font: bold 12px "Roboto Mono";
+}
+
+.card1-img {
+    width: 90%;
+    height: 100%;
+    transition: 0.5s all;
+}
+
+.card1-img:hover {
+    opacity: 0.8;
+}
+
+.card1-img #about-img {
+    width: 100%;
+    height: 100%;
+}
+
+.social-icons {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    padding-top: 2px;
+}
+
+.social-icons i {
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+
+/*  -----------------------     ABOUT CSS ENDS HERE   -------------------------- */

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('layouts/header'); -%>
+    <%- include('layouts/navfootercss'); -%>
+    <link rel="stylesheet" href="../css/home.css">
+    
+</head>
+
+<body>
+    <%- include('layouts/navbar'); -%>
+
+    <!--A full screen seach bar-->
+    <div class="bar " id="s_bar ">
+        <input type="search" placeholder="Type something and hit enter... ">
+    </div>
+    <!-- Header tag was used here instead of nav -->
+
+    <div class=" featured-content ">
+
+        <!--This section is named as featured-content/Landing-page. It contains the short description about the website.-->
+        <!--The following code basically consists of of images (background + foreground), main title and a short description with a "get-started" button -->
+
+        <img class=" imgfor2 " src="../assets/img/home/bgClouds.png ">
+        <img class=" imgfor3 " src="../assets/img/home/foregroundTwo.png ">
+        <img class=" imgfor4 " src="../assets/img/home/foregroundOne.png">
+
+
+        <div class=" main_title ">
+            <div class="heading ">
+                <h1>Students Corner</h1>
+            </div>
+
+            <div class="mainpara ">
+                <h4>...a place where you can comfort your student life. where you can belong to a community just like you. A Pavilion for all your needs.</h4>
+            </div>
+
+            <div class="btn2 ">
+                <a href="/loginsignup"><button>Get Started</button></a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="content-1" id="contentOne">
+
+        <div class="content-img-1">
+            <img src="../assets/img/home/content_img.jpg" alt="">
+        </div>
+        <div class="content-info-1">
+
+            <div class="content-title-1">
+                <h1>Resources</h1>
+            </div>
+
+            <div class="content-para-1">
+                <p>Articles, blogs, roadmaps, guides for all your interview preparation needs.</p>
+            </div>
+            <div class="content-btn-1">
+                <a href="/resources"><button>View Resources</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-2">
+
+        <div class="content-info-2">
+
+            <div class="content-title-2">
+                <h1>Practice</h1>
+            </div>
+            <div class="content-para-2">
+                <p>Questions designed to prepare you for interviews at the best companies.
+                </p>
+            </div>
+            <div class="content-btn-2">
+                <a href="/resources/questions"><button>Practice Questions</button></a>
+            </div>
+        </div>
+        <div class="content-img-2">
+            <img src="../assets/img/home/practice.png" alt="">
+        </div>
+    </div>
+
+    <div class="content-3" id="contentThree">
+
+        <div class="content-img-3">
+            <img src="../assets/img/home/community.png" alt="">
+        </div>
+        <div class="content-info-3">
+            <div class="content-title-3">
+                <h1>Community</h1>
+            </div>
+
+            <div class="content-para-3">
+                <p>An online community of like minded folks to collaborate and share knowledge.</p>
+            </div>
+            <div class="content-btn-3">
+                <a href="/community"><button>Join Our Community</button></a>
+            </div>
+        </div>
+    </div>
+
+    <%- include('layouts/footer'); -%>
+    <%- include('layouts/scripts'); -%>
+
+</body>
+
+</html>

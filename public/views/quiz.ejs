@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('layouts/header'); -%>
+    <%- include('layouts/navfootercss'); -%>
+    <link rel="stylesheet" href="../css/quiz.css">
+</head>
+<body>
+
+    <%- include('layouts/navbar'); -%>
+    <br>
+    <h1 style="text-align: center;" id="main-heading">QUIZ</h1>
+    <div id="outer">
+        <h1 style="text-align: center;" id="question">QUESTION</h1>
+        <h1 class="question">Question</h1>
+        <h3 id="q-choice">CHOOSE YOUR ANSWER</h3>
+        <ul>
+            <li>
+                <input type="radio" class="answer" id="ans1" name="ans">
+                <label for="ans1" id="Option1">Option1</label>
+            </li>
+            <li>
+                <input type="radio" class="answer" id="ans2" name="ans">
+                <label for="ans2" id="Option2">Option2</label>
+            </li>
+            <li>
+                <input type="radio" class="answer" id="ans3" name="ans">
+                <label for="ans3" id="Option3">Option3</label>
+            </li>
+            <li>
+                <input type="radio" class="answer" id="ans4" name="ans">
+                <label for="ans4" id="Option4">Option4</label>
+            </li>
+        </ul>
+        <div class="buttons" id="buttons">
+            <button type="submit" id="prebtn">Previous</button>
+            <button type="submit" id="nextbtn">Next</button>
+            <button type="submit" id="submit">Submit</button>
+        </div>
+        <div id="scores">
+            <h2 style="text-align: center;" id="scoretext"></h2>
+            <button id="plyagbtn" type="button">PLAY AGAIN</button>
+        </div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <%- include('layouts/footer'); -%>
+    <%- include('layouts/scripts'); -%>
+
+</body>
+
+</html>

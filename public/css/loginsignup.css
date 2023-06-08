@@ -1,0 +1,282 @@
+
+/*-----------------------------     LOGIN/SIGNUP CSS STARTS HERE        ----------------------*/
+
+.container {
+    width: 100%;
+    height: 92vh;
+    display: flex;
+    overflow: hidden;
+    /* border: 1px solid crimson; */
+}
+
+.container .main {
+    width: 40%;
+    height: 100%;
+    padding: 2%;
+}
+
+.main .main_heading {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+    font-size: 18px;
+    font-family: "Rubik";
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    text-decoration-color: rgba(24, 101, 255, 0.732);
+    /* border: 1px solid purple; */
+}
+
+.main form {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0% 0% 0% 5%;
+    /* border: 1px dotted black; */
+}
+
+form label {
+    margin-top: 8%;
+    margin-bottom: 2%;
+    font-size: 16px;
+    font-family: "Rubik";
+    transition: 0.5s all;
+}
+
+form .input-holders {
+    width: 80%;
+    height: 5%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-family: "Inconsolata", "sans-serif";
+    /* letter-spacing: 2px; */
+    transition: 0.5s all;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    border-bottom: 1px solid #222;
+}
+
+form input[type="submit"] {
+    width: 80%;
+    height: 10%;
+    outline: none;
+    border: none;
+    margin-top: 8%;
+    background-color: rgba(33, 40, 253, 0.639);
+    background: linear-gradient(to right, rgba(187, 16, 255, 0.629), rgba(255, 24, 113, 0.732), rgba(255, 24, 113, 0.857));
+    background: linear-gradient(to right, rgba(16, 151, 255, 0.629), rgba(24, 59, 255, 0.732), rgba(24, 78, 255, 0.857));
+    box-shadow: 2px 2px 10px rgba(24, 101, 255, 0.732);
+    color: white;
+    font-size: 25px;
+    font-family: "Rubik";
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+form .input-holders:focus {
+    background-color: rgba(0, 106, 255, 0.214);
+    background: linear-gradient(to right, rgba(29, 99, 251, 0.250), rgba(35, 141, 255, 0.200));
+}
+
+.main .rdt_link {
+    width: 100%;
+    height: 10%;
+    padding: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Rubik";
+    /* border: 1px solid black; */
+}
+
+.rdt_link a,#switchLS {
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+
+.container .side_design {
+    width: 60%;
+    height: 100%;
+    /* border: 1px dashed blue; */
+}
+
+.container .side_design img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.side_design h2 {
+    position: absolute;
+    left: 58%;
+    top: 30%;
+    color: white;
+    font-size: 100px;
+    font-family: "Jua";
+}
+
+.new_para {
+    width: 50%;
+    position: absolute;
+    left: 48%;
+    top: 50%;
+    color: white;
+    font-size: 18px;
+    font-family: "Jua";
+}
+
+
+/*===============================       SIGNUP FORM CSS ENDS HERE       ======================*/
+
+
+/*===============================       LOGIN FORM               ==========================*/
+
+.container .main-2 {
+    width: 40%;
+    height: 100%;
+    padding: 2%;
+    display: none;
+}
+
+.main-2 .main_heading-2 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5%;
+    font-size: 18px;
+    font-family: "Rubik";
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    text-decoration-color: rgba(24, 101, 255, 0.732);
+    /* border: 1px solid purple; */
+}
+
+.main-2 #form_2 {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0% 0% 0% 5%;
+    /* border: 1px dotted black; */
+}
+
+#form_2 label {
+    margin-top: 8%;
+    margin-bottom: 2%;
+    font-size: 16px;
+    font-family: "Rubik";
+    transition: 0.5s all;
+}
+
+#form_2 .input-holders-2 {
+    width: 80%;
+    height: 5%;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-family: "Inconsolata", "sans-serif";
+    /* letter-spacing: 2px; */
+    transition: 0.5s all;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    border-bottom: 1px solid #222;
+}
+
+#form_2 input[type="submit"] {
+    width: 80%;
+    height: 10%;
+    outline: none;
+    border: none;
+    margin-top: 8%;
+    background-color: rgba(33, 40, 253, 0.639);
+    background: linear-gradient(to right, rgba(187, 16, 255, 0.629), rgba(255, 24, 113, 0.732), rgba(255, 24, 113, 0.857));
+    background: linear-gradient(to right, rgba(16, 151, 255, 0.629), rgba(24, 59, 255, 0.732), rgba(24, 78, 255, 0.857));
+    box-shadow: 2px 2px 10px rgba(24, 101, 255, 0.732);
+    color: white;
+    font-size: 25px;
+    font-family: "Rubik";
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#form_2 .input-holders-2:focus {
+    background-color: rgba(0, 106, 255, 0.214);
+    background: linear-gradient(to right, rgba(29, 99, 251, 0.250), rgba(35, 141, 255, 0.200));
+}
+#welcome{
+    top:300px;
+}
+
+.main-2 .rdt_link-2 {
+    width: 100%;
+    height: 10%;
+    padding: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Rubik";
+    /* border: 1px solid black; */
+}
+
+#forgot_link {
+    font-size: 18px;
+    font-family: "Rubik";
+    margin-top: 2%;
+    /* border: 1px solid black; */
+}
+
+.rdt_link-2 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: blue;
+}
+
+/*=========================   ERRORS    ===========================*/
+.login_error,
+.signup_error {
+    display: block;
+    position: absolute;
+    width: 25%;
+    height: 6%;
+    top:8.4%;
+    left: 15%;
+            
+    font-family:"Rubik";
+    color: rgb(255, 27, 27) ;
+    /* border-bottom: 1px solid red; */
+}
+
+.login_error_1,
+.signup_error_1 {
+    display: none;
+    width: 25%;
+    height: 6.5%;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    font-family:"Rubik";
+    color:rgb(255, 27, 27) ;
+    /* border-bottom: 1px solid red; */
+}
+
+/*---------------------------------     LOGINSIGNUP CSS ENDS HERE   --------------------------*/
+
+

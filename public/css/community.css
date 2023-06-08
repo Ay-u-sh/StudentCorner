@@ -1,0 +1,232 @@
+
+/*------------------------      COMMUNITY CSS STARTS HERE     -----------------------------*/
+.comm_main {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.h_for_comm {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: "Oswald";
+    color: #222;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    position: relative;
+    top: 5%;
+    text-align: center;
+    padding: 0px 400px 0px 400px;
+    z-index: 999;
+    /* padding: 0% 10% 0% 5%; */
+    /* border: 1px solid crimson; */
+    animation: animate 1s ease-in;
+}
+/*================animating main text=============*/
+
+@keyframes animate {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/*=====================================================
+animating the main text -- END
+============================================*/
+
+.h_for_comm #chngclr {
+    padding: 0px 10px 0px 10px;
+    border-radius: 30px;
+    color: white;
+    background: linear-gradient(to right, rgba(44, 21, 255, 0.712), rgba(101, 7, 252, 0.788));
+    box-shadow: 0px 0px 10px rgba(44, 21, 255, 0.712);
+}
+
+.img_for_comm {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -30%;
+    bottom: 15%;
+    padding: 2%;
+    /* border: 1px solid crimson; */
+}
+
+.img_for_comm img {
+    width: 80%;
+    height: 100%;
+}
+/*=========================*/
+
+.heading {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: "Oswald";
+    font-weight: bolder;
+    letter-spacing: 8px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    /* border: 1px solid black; */
+}
+
+.heading p {
+    color: black;
+    padding: 5px 20px 5px 20px;
+    border-radius: 50px;
+}
+
+.content_for_comm {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-bottom: 5%;
+    /* border: 1px solid blue; */
+}
+
+.card1,
+.card2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(52, 164, 255, 0.062);
+    /* border: 1px solid crimson; */
+}
+
+.card1_heading,
+.card2_heading {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-family: "Oswald";
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+
+.card1_para,
+.card2_para {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Nunito Sans";
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+/*==================================================*/
+
+.bigBox {
+    width: 100%;
+    height: 100%;
+    margin-top: 20%;
+}
+
+#ex {
+    /* text-align: center; */  /*changes*/
+    background-image: url("../assets/img/community/a.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.club1 {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.418);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.club1 .club1_heading {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-family: "Jua";
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    background: linear-gradient(to right, rgba(44, 21, 255, 0.637), rgba(101, 7, 252, 0.637));
+    box-shadow: 0px 0px 20px rgba(44, 21, 255, 0.644);
+    /* border: 1px solid crimson; */
+}
+
+.club1_about {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    padding: 0 100px 0 100px;
+    background-color: aliceblue;
+    /* border: 1px solid crimson; */
+}
+
+.club1_btn {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid crimson; */
+}
+
+.club1_btn button {
+    width: 25vh;
+    height: 8vh;
+    outline: none;
+    font-size: 20px;
+    font-family: "Fira Mono";
+    background-color: crimson;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s all;
+    border: 1px solid crimson;
+}
+
+.club1_btn input:hover {
+    background-color: rgb(226, 0, 45);
+    box-shadow: 0px 0px 10px crimson;
+    color: white;
+}
+
+
+/*--------------------------        COMMUNITY CSS ENDS HERE     ------------------------------*/

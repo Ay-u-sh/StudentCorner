@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('layouts/header'); -%>
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+
+<body>
+    
+    <%- include('layouts/navbar'); -%>
+
+    <div class="main" id="main-for-contact">
+        <div class="main-pic">
+            <img src="../assets/img/contact/contact_img.png">
+    
+        </div>
+    
+        <div class="main-contact">
+            <div class="contact-heading">
+                <Span>Contact Us</Span>
+            </div>
+            <div class="contact-about">
+                <span>Got a question? We'd love to hear from you.</span>
+            </div>
+            <form action="https://formsubmit.co/eb100ef244dc31ad165c3d12d4cf15bb" method="POST" id="contact-form">
+                <input type="text" name="name" placeholder="UserName" required>
+                <input type="email" name="email" placeholder="Your email" required>
+                <textarea name="message" cols="50" rows="10" placeholder="Message..." required></textarea>
+                <button>Submit</button>
+            </form>
+        </div>
+    </div>
+        
+    <%- include('layouts/scripts'); -%>
+
+</body>
+</html>
