@@ -61,8 +61,7 @@ app.use("*",(req,res,next)=>{
 });
 
 /* CONNECTING TO DATABASE USING MONGODB ATLAS */
-mongoose.connect("mongodb+srv://<here come the password>.@cluster0.a2kmo0r.mongodb.net/Database",{useNewUrlParser:true});
-// mongoose.connect("mongodb://localhost:27017/Database",{useNewUrlParser:true})
+mongoose.connect("mongodb://localhost:27017/Database",{useNewUrlParser:true})
 
 /*          --------------ROUTING REQUESTS-------------          */
 const homeController = require('../controllers/home');
@@ -83,6 +82,9 @@ app.get('/resources/questions',questionsController);
 
 const quizController = require('../controllers/quiz');
 app.get('/resources/quiz',quizController);
+
+const searchController=require('../controllers/search');
+app.get('/search',searchController);
 
 const aboutController = require('../controllers/about');
 app.get('/about',aboutController);
